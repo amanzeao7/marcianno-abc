@@ -3,7 +3,7 @@ import Link from 'next/link'
 interface ButtonProps {
   variant?: 'primary' | 'outline'
   href?: string
-  onClick?: () => void
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void
   children: React.ReactNode
   className?: string
   disabled?: boolean

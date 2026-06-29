@@ -76,7 +76,7 @@ export default function ScheduleSection() {
                     className="px-5 py-4 text-sm"
                     style={{ color: 'var(--color-text)' }}
                   >
-                    {row.class}
+                    {row.className}
                   </td>
                   <td className="px-5 py-4">
                     <span

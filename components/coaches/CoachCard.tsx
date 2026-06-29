@@ -12,9 +12,9 @@ export default function CoachCard({ coach }: CoachCardProps) {
     <article className="bg-[var(--color-bg3)] border border-[var(--color-border)] rounded-sm flex flex-col overflow-hidden transition-transform duration-200 hover:-translate-y-1 focus-within:outline-2 focus-within:outline-[var(--color-red)] focus-within:outline-offset-2">
       {/* Avatar */}
       <div className="relative bg-[var(--color-bg2)] flex items-center justify-center h-48">
-        {coach.photo ? (
+        {coach.photoUrl ? (
           <Image
-            src={coach.photo}
+            src={coach.photoUrl}
             alt={`Photo of ${coach.name}`}
             fill
             className="object-cover"

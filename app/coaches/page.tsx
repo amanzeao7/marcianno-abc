@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function CoachesPage() {
   return (
-    <main id="main-content">
+    <main id="main-content" tabIndex={-1}>
       {/* Page Hero */}
       <section
         className="relative min-h-[50vh] flex items-end pb-16 px-[5%]"

@@ -37,7 +37,7 @@ export default function ContactPage() {
   }
 
   return (
-    <main id="main-content">
+    <main id="main-content" tabIndex={-1}>
       {/* Page Hero */}
       <section
         className="relative py-24 px-[5%] border-b border-[var(--color-border)]"

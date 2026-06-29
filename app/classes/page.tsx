@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function ClassesPage() {
   return (
-    <main id="main-content">
+    <main id="main-content" tabIndex={-1}>
       {/* Page Hero */}
       <section
         className="relative py-24 px-[5%] bg-[var(--color-bg2)] border-b border-[var(--color-border)]"

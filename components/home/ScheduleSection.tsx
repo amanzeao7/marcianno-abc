@@ -4,7 +4,7 @@ import SectionHeader from '@/components/shared/SectionHeader'
 
 export default function ScheduleSection() {
   return (
-    <section className="py-20 px-[5%]" style={{ background: 'var(--color-bg)' }}>
+    <section id="schedule" className="py-20 px-[5%]" style={{ background: 'var(--color-bg)' }}>
       <div className="max-w-[1200px] mx-auto">
         <SectionHeader
           eyebrow="Classes Monday to Friday"

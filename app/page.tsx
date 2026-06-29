@@ -10,7 +10,7 @@ import { videoEmbeds } from '@/lib/data'
 
 export default function HomePage() {
   return (
-    <main id="main-content">
+    <main id="main-content" tabIndex={-1}>
       <HeroSection />
       <ClassesSection />
       <ScheduleSection />

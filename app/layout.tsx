@@ -39,9 +39,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Nav />
-        <main id="main-content" tabIndex={-1}>
-          {children}
-        </main>
+        {children}
         <Footer />
       </body>
     </html>

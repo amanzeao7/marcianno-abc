@@ -17,7 +17,7 @@ const stats = [
 
 export default function CommunityPage() {
   return (
-    <main id="main-content">
+    <main id="main-content" tabIndex={-1}>
       {/* Full-bleed hero with junior team photo */}
       <section
         className="relative min-h-[70vh] flex items-end pb-16 px-[5%]"

@@ -6,7 +6,6 @@ const navLinks = [
   { href: '/classes', label: 'Classes' },
   { href: '/coaches', label: 'Coaches' },
   { href: '/community', label: 'Community' },
-  { href: '/fights', label: 'Fights' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -83,10 +82,10 @@ export default function Footer() {
               </p>
               <div className="flex flex-col gap-1 mb-5">
                 <a
-                  href="tel:07872557398"
+                  href="tel:07872557298"
                   className="font-body text-sm text-[var(--color-text2)] hover:text-[var(--color-text)] transition-colors"
                 >
-                  07872 557398
+                  07872 557298
                 </a>
                 <a
                   href="tel:07901557339"
@@ -97,7 +96,6 @@ export default function Footer() {
               </div>
             </address>
 
-            {/* Social buttons */}
             <div className="flex gap-3">
               <a
                 href="https://instagram.com/marciannoabc"
@@ -121,7 +119,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="border-t border-[var(--color-border)] pt-6">
           <p className="font-body text-xs text-[var(--color-text3)] text-center">
             © 2026 Marcianno Bexley &amp; District ABC. All rights reserved.

@@ -12,7 +12,6 @@ const navLinks = [
   { href: '/#schedule', label: 'Schedule' },
   { href: '/coaches', label: 'Coaches' },
   { href: '/community', label: 'Community' },
-  { href: '/fights', label: 'Fights' },
   { href: '/contact', label: 'Contact' },
 ]
 
@@ -24,7 +23,6 @@ export default function Nav() {
 
   const closeMenu = useCallback(() => setMenuOpen(false), [])
 
-  // Close on ESC
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && menuOpen) {
@@ -36,7 +34,6 @@ export default function Nav() {
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [menuOpen, closeMenu])
 
-  // Close on outside click
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (
@@ -52,7 +49,6 @@ export default function Nav() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [menuOpen, closeMenu])
 
-  // Prevent body scroll when menu open
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -65,7 +61,6 @@ export default function Nav() {
 
   return (
     <>
-      {/* Skip link */}
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[300] focus:bg-[var(--color-red)] focus:text-white focus:px-4 focus:py-2 focus:font-body focus:font-semibold focus:text-sm"
@@ -78,7 +73,6 @@ export default function Nav() {
         role="banner"
       >
         <div className="w-full max-w-[1200px] mx-auto px-[5%] flex items-center justify-between">
-          {/* Logo */}
           <Link href="/" className="flex-shrink-0 focus:outline-2 focus:outline-[#D0231A] focus:outline-offset-2" aria-label="Marcianno ABC — Home">
             <Image
               src="/logos/MARCIANNO_ABC_LOGO_WHITE_RGB.png"
@@ -90,11 +84,7 @@ export default function Nav() {
             />
           </Link>
 
-          {/* Desktop nav links */}
-          <nav
-            aria-label="Main navigation"
-            className="hidden md:flex items-center gap-6"
-          >
+          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-6">
             {navLinks.map(({ href, label }) => (
               <Link
                 key={href}
@@ -108,7 +98,6 @@ export default function Nav() {
             ))}
           </nav>
 
-          {/* Desktop CTA + hamburger */}
           <div className="flex items-center gap-3">
             <Button
               href="/contact"
@@ -118,7 +107,6 @@ export default function Nav() {
               Join Us
             </Button>
 
-            {/* Hamburger */}
             <button
               ref={hamburgerRef}
               onClick={() => setMenuOpen((v) => !v)}
@@ -127,21 +115,14 @@ export default function Nav() {
               aria-controls="mobile-menu"
               className="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-[5px] focus:outline-2 focus:outline-[#D0231A] focus:outline-offset-2 rounded-sm"
             >
-              <span
-                className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''}`}
-              />
-              <span
-                className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`}
-              />
-              <span
-                className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`}
-              />
+              <span className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
+              <span className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`} />
+              <span className={`block w-6 h-[2px] bg-[var(--color-text)] transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
             </button>
           </div>
         </div>
       </header>
 
-      {/* Mobile full-screen menu */}
       <div
         id="mobile-menu"
         ref={menuRef}
@@ -150,7 +131,6 @@ export default function Nav() {
           menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
-        {/* Spacer for nav height */}
         <div className="h-[62px]" />
 
         <nav aria-label="Mobile navigation" className="flex flex-col gap-2 flex-1 justify-center">

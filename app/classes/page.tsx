@@ -2,14 +2,13 @@ import Link from 'next/link'
 import { classes, schedule } from '@/lib/data'
 import SectionHeader from '@/components/shared/SectionHeader'
 import Button from '@/components/shared/Button'
-import {Metadata} from 'next'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Classes | Marcianno ABC',
   description:
-    'Boxing classes for all ages and levels — Juniors, Seniors, Women&apos;s, Over 40s, and Beginners. See the full weekly schedule.',
+    "Boxing classes for all ages and levels — Juniors, Seniors, Women's, Over 40s, and Beginners. See the full weekly schedule.",
 }
-
 
 export default function ClassesPage() {
   return (
@@ -19,8 +18,7 @@ export default function ClassesPage() {
         className="relative py-24 px-[5%] bg-[var(--color-bg2)] border-b border-[var(--color-border)]"
         aria-label="Classes page hero"
         style={{
-          background:
-            'linear-gradient(135deg, var(--color-bg2) 0%, var(--color-bg) 100%)',
+          background: 'linear-gradient(135deg, var(--color-bg2) 0%, var(--color-bg) 100%)',
         }}
       >
         <div className="max-w-[1200px] mx-auto">
@@ -38,7 +36,7 @@ export default function ClassesPage() {
         </div>
       </section>
 
-      {/* Class Cards — expanded */}
+      {/* Class Cards */}
       <section
         className="py-20 px-[5%] bg-[var(--color-bg)]"
         aria-labelledby="class-cards-heading"
@@ -55,9 +53,6 @@ export default function ClassesPage() {
                 key={cls.id}
                 className="bg-[var(--color-bg3)] border border-[var(--color-border)] rounded-sm p-6 flex flex-col gap-3 group transition-colors hover:border-[var(--color-red)]"
               >
-                <span className="text-3xl" aria-hidden="true">
-                  {cls.icon}
-                </span>
                 <div className="flex items-start justify-between gap-2">
                   <h2 className="font-display text-2xl tracking-wide text-[var(--color-text)]">
                     {cls.title}
@@ -98,18 +93,10 @@ export default function ClassesPage() {
             <table className="w-full min-w-[480px] border-collapse font-body text-sm">
               <thead>
                 <tr className="bg-[var(--color-red)]">
-                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">
-                    Day
-                  </th>
-                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">
-                    Time
-                  </th>
-                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">
-                    Class
-                  </th>
-                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">
-                    Level
-                  </th>
+                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">Day</th>
+                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">Time</th>
+                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">Class</th>
+                  <th scope="col" className="text-left px-5 py-4 font-semibold uppercase tracking-wider text-white text-xs">Level</th>
                 </tr>
               </thead>
               <tbody>

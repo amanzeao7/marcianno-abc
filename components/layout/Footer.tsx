@@ -82,10 +82,10 @@ export default function Footer() {
               </p>
               <div className="flex flex-col gap-1 mb-5">
                 <a
-                  href="tel:07872557398"
+                  href="tel:07872557298"
                   className="font-body text-sm text-[var(--color-text2)] hover:text-[var(--color-text)] transition-colors"
                 >
-                  07872 557398
+                  07872 557298
                 </a>
                 <a
                   href="tel:07901557339"

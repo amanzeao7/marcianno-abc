@@ -6,7 +6,7 @@ import Button from '@/components/shared/Button'
 
 const contactDetails = {
   address: '2 Upper Wickham Lane, Welling, DA16 3HE',
-  phones: ['07872 557398', '07901 557339'],
+  phones: ['07872 557298', '07901 557339'],
   instagram: 'https://instagram.com/marciannoabc',
   facebook: 'https://facebook.com/61571771549768',
   hours: [

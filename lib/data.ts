@@ -179,25 +179,18 @@ export const coaches: Coach[] = [
 
 export const pricing: PricingTier[] = [
   {
-    label: 'First Session',
-    amount: 'FREE',
-    per: 'One-time trial',
-    description: "Come down, see what we're about, meet the team. No commitment.",
-    featured: false,
-  },
-  {
     label: 'Drop In',
     amount: '£5',
     per: 'Per session',
-    description: 'Rock up to any class. Flexible, affordable, always welcoming.',
-    featured: true,
+    description: 'Rock up to any class. Flexible, affordable, and always welcoming.',
+    featured: false,
   },
   {
     label: 'Monthly',
-    amount: 'TBC',
-    per: 'Ask the team',
-    description: 'Training regularly? Ask about monthly membership options when you visit.',
-    featured: false,
+    amount: '£60',
+    per: 'Per month',
+    description: 'Unlimited training. Best value for regular members.',
+    featured: true,
   },
 ]
 
@@ -216,5 +209,34 @@ export const videoEmbeds: VideoEmbed[] = [
     title: 'Fight Night — June 2026',
     embedUrl: null, // TODO: replace with fight night footage URL
     caption: 'Bexley Leisure Centre · 21 June 2026',
+  },
+]
+
+export interface GalleryImage {
+  src: string
+  alt: string
+  caption?: string
+}
+
+export const galleryImages: GalleryImage[] = [
+  {
+    src: '/images/junior-champs.jpeg',
+    alt: 'Junior champions with their belts at Marcianno ABC',
+    caption: 'Junior Champions',
+  },
+  {
+    src: '/images/2026-06-18 20.52.09.jpg.jpeg',
+    alt: 'Junior boxing team at Marcianno ABC',
+    caption: 'Junior Team',
+  },
+  {
+    src: '/images/2026-06-18 20.52.13.jpg.jpeg',
+    alt: 'Senior boxing team at Marcianno ABC',
+    caption: 'Senior Team',
+  },
+  {
+    src: '/images/marco1.jpg.jpeg',
+    alt: 'Marcianno ABC boxing gym',
+    caption: 'The Gym',
   },
 ]

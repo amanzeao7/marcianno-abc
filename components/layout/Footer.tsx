@@ -6,9 +6,9 @@ const navLinks = [
   { href: '/classes', label: 'Classes' },
   { href: '/coaches', label: 'Coaches' },
   { href: '/community', label: 'Community' },
+  { href: '/gallery', label: 'Gallery' },
   { href: '/contact', label: 'Contact' },
 ]
-
 function InstagramIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

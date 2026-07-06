@@ -49,13 +49,16 @@ export const classes: Class[] = [
 ]
 
 export const schedule: ScheduleRow[] = [
-  { day: 'Monday',    time: '6:00 PM', className: 'General Boxing',       level: 'All Levels'    },
-  { day: 'Tuesday',   time: '6:00 PM', className: 'Juniors',              level: 'Ages 8–16'     },
-  { day: 'Tuesday',   time: '7:30 PM', className: 'Seniors / Sparring',   level: 'Intermediate+' },
-  { day: 'Wednesday', time: '6:00 PM', className: "Women's Boxing",       level: 'All Levels'    },
-  { day: 'Thursday',  time: '6:00 PM', className: 'General Boxing',       level: 'All Levels'    },
-  { day: 'Thursday',  time: '7:30 PM', className: 'Technical / Pad Work', level: 'All Levels'    },
-  { day: 'Friday',    time: '7:30 PM', className: 'Over 40s',             level: '40+'           },
+  { day: 'Monday',    time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
+  { day: 'Monday',    time: '7:30–9:00pm', className: "Women's Classes",  level: 'All Levels' },
+  { day: 'Tuesday',   time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
+  { day: 'Tuesday',   time: '7:30–9:00pm', className: 'Seniors',          level: '16+'        },
+  { day: 'Wednesday', time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
+  { day: 'Wednesday', time: '7:30–9:00pm', className: 'Seniors',          level: '16+'        },
+  { day: 'Thursday',  time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
+  { day: 'Thursday',  time: '7:30–9:00pm', className: 'Seniors',          level: '16+'        },
+  { day: 'Friday',    time: '6:00–7:30pm', className: 'Seniors',          level: '16+'        },
+  { day: 'Friday',    time: '7:30–9:00pm', className: 'Over 40s Classes', level: '40+'        },
 ]
 
 export const fights: Fight[] = [

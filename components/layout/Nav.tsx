@@ -12,6 +12,7 @@ const navLinks = [
   { href: '/#schedule', label: 'Schedule' },
   { href: '/coaches', label: 'Coaches' },
   { href: '/community', label: 'Community' },
+  { href: '/gallery', label: 'Gallery' },
   { href: '/contact', label: 'Contact' },
 ]
 

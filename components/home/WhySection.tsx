@@ -27,9 +27,7 @@ export default function WhySection() {
               className="font-body text-base leading-relaxed mb-4"
               style={{ color: 'var(--color-text2)' }}
             >
-              We're not just a boxing club — we're a community built on respect,
-              discipline, and graft. Named after the great Rocky Marciano, we carry
-              that champion spirit into everything we do.
+              We’re far more than just a boxing club, we’re a community built on respect, discipline and hard work. That champion mindset runs through everything we do.
             </p>
             <p
               className="font-body text-base leading-relaxed mb-10"

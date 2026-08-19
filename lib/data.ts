@@ -219,7 +219,7 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
-    src: '/images/junior-champs.jpeg',
+    src: '/images/marco9.jpeg',
     alt: 'Junior champions with their belts at Marcianno ABC',
     caption: 'Junior Champions',
   },
@@ -237,5 +237,40 @@ export const galleryImages: GalleryImage[] = [
     src: '/images/marco1.jpg.jpeg',
     alt: 'Marcianno ABC boxing gym',
     caption: 'The Gym',
+  },
+  {
+    src: '/images/marco2.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
+  },
+  {
+    src: '/images/marco3.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
+  },
+  {
+    src: '/images/marco4.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
+  },
+  {
+    src: '/images/marco5.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
+  },
+  {
+    src: '/images/marco6.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
+  },
+  {
+    src: '/images/marco7.jpeg',
+    alt: 'Group shot from a boxing training session at Marcianno ABC',
+    caption: 'Group Training',
+  },
+  {
+    src: '/images/marco8.jpeg',
+    alt: 'Boxers training at Marcianno ABC',
+    caption: 'Training Session',
   },
 ]

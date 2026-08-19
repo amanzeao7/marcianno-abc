@@ -8,7 +8,7 @@ export const classes: Class[] = [
     description: 'Discipline, confidence, and technique for young boxers in a safe, structured environment.',
     tag: 'Ages 8–16',
     icon: '🥊',
-    schedule: 'Tuesdays 6:00 PM',
+    schedule: 'Tuesdays - Thursday 6:00 PM - 7:30 PM',
   },
   {
     id: 'seniors',
@@ -17,16 +17,16 @@ export const classes: Class[] = [
     description: 'Full boxing training — fitness, sparring, technical development. Push your limits.',
     tag: '16+',
     icon: '💪',
-    schedule: 'Mon/Thu 6 PM · Tue 7:30 PM',
+    schedule: 'Tuesday, Wednesday, Thursday 7:30 PM - 9:00 PM. Friday 6PM - 7:30PM',
   },
   {
     id: 'womens',
-    title: "Women's Boxing",
+    title: "Women's Classes",
     audience: 'All levels',
     description: 'Empowering women through boxing. Self-defence, fitness, and a brilliant community.',
     tag: 'All Levels',
     icon: '👊',
-    schedule: 'Wednesdays 6:00 PM',
+    schedule: 'Mondays 7:30 PM - 9 PM',
   },
   {
     id: 'over40s',
@@ -35,7 +35,7 @@ export const classes: Class[] = [
     description: "Never too late. Build fitness, learn to box, and join a community that gets it.",
     tag: '40+',
     icon: '🔥',
-    schedule: 'Fridays 7:30 PM',
+    schedule: 'Fridays 7:30 PM - 9 PM',
   },
   {
     id: 'beginners',
@@ -44,12 +44,11 @@ export const classes: Class[] = [
     description: "Zero experience needed. We'll take you from the basics to confidently holding your own.",
     tag: 'Drop In',
     icon: '⭐',
-    schedule: 'General sessions',
+    schedule: '',
   },
 ]
 
 export const schedule: ScheduleRow[] = [
-  { day: 'Monday',    time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
   { day: 'Monday',    time: '7:30–9:00pm', className: "Women's Classes",  level: 'All Levels' },
   { day: 'Tuesday',   time: '6:00–7:30pm', className: 'Juniors',          level: 'Ages 8–16'  },
   { day: 'Tuesday',   time: '7:30–9:00pm', className: 'Seniors',          level: '16+'        },

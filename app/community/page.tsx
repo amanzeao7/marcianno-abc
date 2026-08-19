@@ -119,8 +119,7 @@ export default function CommunityPage() {
           </dl>
         </div>
       </section>
-
-      {/* Action shots — placeholder until real photography arrives */}
+   {/* Action shots — placeholder until real photography arrives */}
       <section className="py-16 bg-[var(--color-bg)]">
         <div className="max-w-[1200px] mx-auto px-[5%]">
           <p className="text-[var(--color-text3)] font-body text-xs uppercase tracking-[2px] mb-6">
@@ -129,16 +128,33 @@ export default function CommunityPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="relative aspect-[4/3] w-full rounded overflow-hidden">
                    <Image
-src="/images/junior-champs.jpeg"
+src="/images/marco9.jpeg"
 alt="Junior champions with their belts at Marcianno ABC"
 fill
 className="object-cover object-top"
 sizes="(max-width: 768px) 100vw, 33vw"
 />
             </div>
-     
-            <ImagePlaceholder label="Action shot — sparring" aspectClass="aspect-[3/4]" />
-            <ImagePlaceholder label="Gym interior" aspectClass="aspect-[3/4]" />
+
+            <div className="relative aspect-[3/4] w-full rounded overflow-hidden">
+              <Image
+                src="/images/marco7.jpeg"
+                alt="Group shot from a boxing training session at Marcianno ABC"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </div>
+
+            <div className="relative aspect-[3/4] w-full rounded overflow-hidden">
+              <Image
+                src="/images/marco8.jpeg"
+                alt="Boxers training at Marcianno ABC"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </div>
           </div>
         </div>
       </section>

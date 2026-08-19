@@ -12,7 +12,7 @@ const HOURS = [
   { day: 'Tuesday', time: '6:00 PM – 9:00 PM' },
   { day: 'Wednesday', time: '6:00 PM – 9:00 PM' },
   { day: 'Thursday', time: '6:00 PM – 9:00 PM' },
-  { day: 'Friday', time: '6:30 PM – 9:00 PM' },
+  { day: 'Friday', time: '6:00 PM – 9:00 PM' },
   { day: 'Saturday – Sunday', time: 'Closed' },
 ]
 

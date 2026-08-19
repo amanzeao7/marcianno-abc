@@ -8,11 +8,11 @@ import Button from '@/components/shared/Button'
 // this file is 'use client' because of form state.
 
 const HOURS = [
-  { day: 'Monday', time: '6:00 PM – 8:00 PM' },
+  { day: 'Monday', time: '6:00 PM – 9:00 PM' },
   { day: 'Tuesday', time: '6:00 PM – 9:00 PM' },
-  { day: 'Wednesday', time: '6:00 PM – 8:00 PM' },
+  { day: 'Wednesday', time: '6:00 PM – 9:00 PM' },
   { day: 'Thursday', time: '6:00 PM – 9:00 PM' },
-  { day: 'Friday', time: '7:30 PM – 9:30 PM' },
+  { day: 'Friday', time: '6:30 PM – 9:00 PM' },
   { day: 'Saturday – Sunday', time: 'Closed' },
 ]
 

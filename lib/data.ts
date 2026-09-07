@@ -153,7 +153,7 @@ export const coaches: Coach[] = [
     photoUrl: null,
   },
   {
-    name: 'Charlie Blackmoore',
+    name: 'Charlie Blackmore',
     role: 'Boxing Coach',
     bio: "Charlie holds an ABA Level 2 coaching qualification and brings a diverse martial arts background to the gym — two years of Karate and three years of Muay Thai have given him a broader perspective on striking, footwork, and distance management that he weaves into his boxing coaching. His sessions challenge technical thinking as much as physical output.",
     credentials: [

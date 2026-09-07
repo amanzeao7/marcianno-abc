@@ -10,11 +10,11 @@ const contactDetails = {
   instagram: 'https://instagram.com/marciannoabc',
   facebook: 'https://facebook.com/61571771549768',
   hours: [
-    { days: 'Monday', time: '6:00 PM' },
-    { days: 'Tuesday', time: '6:00 PM & 7:30 PM' },
-    { days: 'Wednesday', time: '6:00 PM' },
-    { days: 'Thursday', time: '6:00 PM & 7:30 PM' },
-    { days: 'Friday', time: '7:30 PM (Over 40s)' },
+    { days: 'Monday', time: '6:00 - 9:00 PM' },
+    { days: 'Tuesday', time: '6:00 - 9:00 PM' },
+    { days: 'Wednesday', time: '6:00 - 9:00 PM' },
+    { days: 'Thursday', time: '6:00 - 9:00 PM' },
+    { days: 'Friday', time: '6:00 - 9:00 PM' },
   ],
 }
 
